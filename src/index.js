@@ -1,6 +1,7 @@
 /**
  * MSMCauth (Microsoft account authentication for Minecraft)
  * Makes logging into Minecraft via a Microsoft account easier.
+ * Released to Public Domain on 25/10/21 by JH (jacksta), lead developer of SiliconMC.
  * https://github.com/SiliconMC/MSMCauth/
  * 
  */
