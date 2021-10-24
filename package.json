@@ -1,0 +1,34 @@
+{
+    "name": "msmcauth",
+    "description": "Microsoft account authentication for Minecraft, makes logging into Minecraft via a Microsoft account easier.",
+    "version": "1.0.0",
+    "author": "jacksta (https://jacksta.dev)",
+    "repository": "https://github.com/SiliconMC/MSMCauth.git",
+    "homepage": "https://siliconmc.software",
+    "main": "src/index.js",
+    "bin": "src/index.js",
+    "license": "UNLICENSE",
+    "private": true,
+    "scripts": {
+        "start": "node .",
+        "devStart": "nodemon .",
+        "build": "pkg ."
+    },
+    "pkg": {
+        "targets": [
+            "node14-win-x64"
+        ],
+        "outputPath": "bin"
+    },
+    "availableLanguages": [
+        "en-US"
+    ],
+    "dependencies": {
+        "axios": "^0.23.0",
+        "opener": "^1.5.2",
+        "prompt-sync": "^4.2.0"
+    },
+    "devDependencies": {
+        "pkg": "^5.3.3"
+    }
+}
